@@ -1,5 +1,6 @@
 ---
 title: The Mirin Template
+description: The Mirin Template provides tools to allow mod file creators to implement their ideas.
 ---
 # Mirin Template
 [NotITG](https://noti.tg/) is a fork of OpenITG that is designed for creating and playing mod files.
