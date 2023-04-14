@@ -56,3 +56,12 @@ add {1, 2, inExpo, 360, 'rotationz'}
 ```
 
 `add` can also be [player specific](players.md).
+
+# "eas"
+In the cases that you want an ease function as an argument in a function, use `eas` instead of `ease` (or anything else, for that matter). For instance:
+```lua
+function zoox(beat, eas, percent)
+    ease {beat, 2, eas, percent, 'zoomx'}
+end
+zoox(10, inOutBounce, 100)
+```
